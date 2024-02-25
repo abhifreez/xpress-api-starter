@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 routes(app)
 
 app.get('/',(req,res) => {
-    res.send(`You are runing on port ${PORT} Enjoy!!!!`)
+    res.send(`You are runing on port ${PORT} Enjoy! v2`)
 })
 
 app.listen(PORT,()=>{
