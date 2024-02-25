@@ -10,7 +10,7 @@ const PORT = 3000
 
 
 mongoose.Promise = global.Promise
-mongoose.connect("mongodb://localhost/CRMdb");
+mongoose.connect("mongodb://mongo:27017/CRMdb");
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 routes(app)
 
 app.get('/',(req,res) => {
-    res.send(`You are runing on port ${PORT} Enjoy! v2`)
+    res.send(`You are runing on port ${PORT} Enjoy!`)
 })
 
 app.listen(PORT,()=>{
