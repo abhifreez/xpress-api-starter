@@ -1,4 +1,4 @@
- Express API Starter 🚀
+Express API Starter 🚀
 
 Get your RESTful API up and running in no time with Express API Starter! This minimalist boilerplate provides a structured layout and basic setup using Node.js and Express.js, making it perfect for rapid development.
 
@@ -30,9 +30,7 @@ To run the application using Docker, follow these steps:
 
 ## Get Involved 🙌
 
-Have ideas for improvements or want to contribute? We welcome contributions and feedback! 
-
-
+Have ideas for improvements or want to contribute? We welcome contributions and feedback!
 
 ---
 
