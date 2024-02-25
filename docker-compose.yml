@@ -13,10 +13,6 @@ services:
     image: mongo
     volumes:
       - ./data:/data/db
-    restart: always
-    build: .
     ports:
       - "27017:27017"
-    links:
-      - mongo
 
